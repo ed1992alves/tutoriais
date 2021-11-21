@@ -328,7 +328,7 @@ Exemplo:
 
 ### Passo 3: Atributos Multi Valor
 
-Para cada atributo multivalor cria -se uma nova relação que inclui o atributo mais a chave principal da relação que representa a relação que repsenta a entidade que tem o atributo multivalor.
+Para cada atributo multivalor cria -se uma nova relação. Esta nova relação inclui a chave externa referenciando a chave primária da relação original mais o atributo. Esta passa a ser a chave principal da relação que repsenta a entidade que tem o atributo multivalor.
 
     Departamento (_num_, nome, {telefone})
     telefoneDepartamento    | #num->departamento | telefone ||
