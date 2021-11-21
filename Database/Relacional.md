@@ -330,7 +330,7 @@ Exemplo:
 
 Para cada atributo multivalor cria -se uma nova relação que inclui o atributo mais a chave principal da relação que representa a relação que repsenta a entidade que tem o atributo multivalor.
 
-    Departamento (_num_, nome, {telefone}
+    Departamento (_num_, nome, {telefone})
     telefoneDepartamento    | #num->departamento | telefone ||
 
 ### Passo 4: Associação Ternária
