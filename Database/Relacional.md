@@ -441,8 +441,7 @@ Para cada atributo multivalor cria -se uma nova relação. Esta nova relação i
 | 105610322    | Maria Antonieta   | Matemática    | 01            | Análise Matemática | 021            | Gil Adaberto        | Matematica      | 10   |
 | 105610322    | Maria Antonieta   | Matemática    | 03            | Estatistica        | 015            | Gil Eanes           | Matematica      | 13   |
 | 105610323    | Frederico Menezes | Contabilidade | 03            | Estatistica        | 015            | Gil Eanes           | Matematica      | 19   |
-| 105610323    | Maria Antonieta   | Contabilidade | 01            | Análise Matemática | 021            | Gil Adaberto        | Matematica      | 16   |
-| 105610323    | Maria Antonieta   | Contabilidade | 25            | Programação        | 015            | Anabela de Malhadas | Informatica     | 15   |
+| 105610323    | Frederico Menezes | Contabilidade | 25            | Programação        | 015            | Anabela de Malhadas | Informatica     | 15   |
 
     Esta Tabela foi desenhada para representar Inscrições e Aprovações de Alunos em Disciplinas. Cada
     estudante está inscrito e/ou já foi aprovado em várias disciplinas, com a informação correspondente.
