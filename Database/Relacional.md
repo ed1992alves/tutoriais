@@ -362,6 +362,17 @@ Para cada atributo multivalor cria -se uma nova relação. Esta nova relação i
     * Numa consulta podem ser detectadas várias doenças. Uma doença tem um nome comum e um nome científico.
     * Para além das doenças detectadas, deve ser possível guardar na base de dados informações sobre as doenças mais comuns de cada raça.
 
+## Exercício: Fórmula 1
+
+    Pretende-se construir uma base de dados para recolher informação sobre os vários campeonatos de fórmula 1
+    * Cada campeonato é realizado ao longo de uma época (ex: 2021) e é composto por uma série de corridas.
+    * Uma corrida é realidazda numa determinada data, num determinado circuito.
+    * Um circuito tem um nome, um comprimento (em km), e uma localização (cidade e país)
+    * Num mesmo campeonato participam várias equipas. Cada equipa tem um ome e ainda a marca do motor utilizado (ex: Williams / BMW). O motor utilizado pode mudar de época para época.
+    * Em cada campeonato, cada equipa inscreve 2 pilotos. Cada piloto te um nome, uma nacionalidade e uma data de nascimento.
+    * Em cada corrida é registado para cada piloto o número de voltas que efetuou e o tempo que demorou.
+    A base de dados deve ainda guardar o número de pontos de cada piloto em cada campeonato.
+
 ## Implementação da BD
 
 ### Redundância
@@ -408,16 +419,33 @@ Para cada atributo multivalor cria -se uma nova relação. Esta nova relação i
 - Igual à 1ª Forma Normal, mas não podem haver dependências parciais.
 - Para chegar à 2ª Forma Normal deve se separar cada componente da chave primária que tenha dependências parciais para uma nova relação.
 
-![exemplo 1FN](Images/2FN.svg)
+![exemplo 2FN](Images/2FN.svg)
 
 ### 3ª Forma Normal
 
 - Igual à 2ª Forma Normal, mas não podem haver dependências transitivas.
 - Para chegar à 3ª Forma Normal deve se criar uma nova relação para os atributos em dependência transitiva.
 
-![exemplo 1FN](Images/3FN.svg)
+![exemplo 3FN](Images/3FN.svg)
 
 ### Exercícios:
 
-- R(A,B,C,D), DFs : AB->C, C->D, e D->A
-- R(A,B,C,D), DFs : AB->C, BC->D, CD->A, e AD->B
+## Exercício: Notas da discplina
+
+![exercicio normalizacao](Images/exercicioNormalizacao.png)
+
+## Exercício: Normalização
+
+Dado os atributos abaixo e algumas informações, cria um projeto relacional na forma 3NF ou BCNF capaz de armazená-los.
+
+    Atributos da Disciplina:
+        nomeDisciplina, codDisciplina, turma, nomeAluno, assunto, nrAulasAssunto, nrCréditos
+
+        Informações:
+            • codDisciplina: código de uma disciplina que é composta por diversos assuntos;
+            • A disciplina pode receber diversos alunos;
+            • turma: turma a qual pertence o aluno;
+            • nrCréditos: número de créditos da disciplina;
+            • assunto: nome do assunto que pode fazer parte do programa da disciplina;
+            • nrAulasAssunto: quantidade de aulas reservada para um determinado assunto;
+            • Os alunos podem se matricular em diversas disciplinas.
