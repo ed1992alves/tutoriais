@@ -432,7 +432,23 @@ Para cada atributo multivalor cria -se uma nova relação. Esta nova relação i
 
 ## Exercício: Notas da discplina
 
-![exercicio normalizacao](Images/exercicioNormalizacao.png)
+| Nº Estudante | Nome Estudante    | Curso         | Nº Disciplina | Nome Disciplina    | Cod. Professor | Nome Professor      | Grupo Professor | Nota |
+| ------------ | ----------------- | ------------- | ------------- | ------------------ | -------------- | ------------------- | --------------- | ---- |
+| 105610321    | Manuel Abrantes   | Informática   | 04            | Matemática         | 021            | Gil Adaberto        | Matematica      | 15   |
+| 105610321    | Manuel Abrantes   | Informática   | 05            | Algebra            | 021            | Gil Adaberto        | Matematica      | 12   |
+| 105610321    | Manuel Abrantes   | Informática   | 25            | Programação        | 056            | Rita Moreira        | Informatica     | 18   |
+| 105610322    | Maria Antonieta   | Matemática    | 04            | Matemática         | 021            | Gil Adaberto        | Matematica      | 14   |
+| 105610322    | Maria Antonieta   | Matemática    | 01            | Análise Matemática | 021            | Gil Adaberto        | Matematica      | 10   |
+| 105610322    | Maria Antonieta   | Matemática    | 03            | Estatistica        | 015            | Gil Eanes           | Matematica      | 13   |
+| 105610323    | Frederico Menezes | Contabilidade | 03            | Estatistica        | 015            | Gil Eanes           | Matematica      | 19   |
+| 105610323    | Maria Antonieta   | Contabilidade | 01            | Análise Matemática | 021            | Gil Adaberto        | Matematica      | 16   |
+| 105610323    | Maria Antonieta   | Contabilidade | 25            | Programação        | 015            | Anabela de Malhadas | Informatica     | 15   |
+
+    Esta Tabela foi desenhada para representar Inscrições e Aprovações de Alunos em Disciplinas. Cada
+    estudante está inscrito e/ou já foi aprovado em várias disciplinas, com a informação correspondente.
+
+    Assim, temos um grupo de atributos repetitivo :
+    {NºDisciplina, NomeDisciplina, Cod.Professor, Nome Professor, CategoriaProfessor, Nota}
 
 ## Exercício: Normalização
 
