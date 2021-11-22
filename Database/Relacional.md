@@ -146,9 +146,9 @@ Uma associação relaciona uma ou mais entidades e devem ser usadas sempre que s
 
       Todos os carros na base de dados têm de ter um dono mas nem todas as pessoas têm de ser donas de carros
 
-### Exercício Transportadora Área
+### Exercício Transportadora Aérea
 
-    Uma transportadora área pretende implmentar uma base de dados com a seguinte informação:
+    Uma transportadora aérea pretende implementar uma base de dados com a seguinte informação:
     * A transportadora tem vários aviões. Cada avião tem, para além da matrícula, um nome, a marca do avião, o número de lugares, e indicação da sua autonomia.
     * Na transportadora trabalham vários pilotos.
     * Cada avião faz vários voos. Cada voo deve ter, pelo menos, a indicação da data e hora em que se efectua, dos locais de partida e de destino.
