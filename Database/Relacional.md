@@ -29,7 +29,7 @@ Principais SGBDS:
 - **Modelo baseado em registos**: Procuram representar a realidade através de registos;
 - **Modelo hierárquico**: Muito rígido, estrutura em árvore;
 - **Modelo em rede**: Implementação difícil e estrutura em rede;
-- **Modelo Entidade - Assosicação (E-A)**: Representa a realidade através da entidade, relacionamento entre as várias entidades e atributos que compõem uma entidade.
+- **Modelo Entidade - Associcação (E-A)**: Representa a realidade através da entidade, relacionamento entre as várias entidades e atributos que compõem uma entidade.
 
 ## Modelo Entidade Associação
 
@@ -104,7 +104,7 @@ Uma associação relaciona uma ou mais entidades e devem ser usadas sempre que s
 
       trabalha_em(Empregado, Departamento, desde)
 
-![Exemplo Assosiação](Images/associação.svg)
+![Exemplo Associação](Images/associação.svg)
 
 #### Grau ou Aridade
 
