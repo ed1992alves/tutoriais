@@ -39,16 +39,14 @@ SQL = DDL + DML + DQL + ...
             datanascimento date
         );
 
-#### Serial type
+#### Serial Type
 
 No caso da nossa chave primária ser um inteiro sequencial podemos usar o type SERIAL e desta forma é atribuido automaticamente no campo o valor sempre que uma nova entrada é adicionada na tabela. O valor default inicial é 1.
 
-        CREATE TABLE fruits(
+        create table fruit(
                 id SERIAL PRIMARY KEY,
                 name VARCHAR NOT NULL
         );
-
-        INSERT INTO fruits(name) VALUES('Orange');
 
 #### Valores por Omissão
 
@@ -177,7 +175,17 @@ No caso da chave estrangeira ser composta por mais de uma coluna usa-se uma rest
             foreign key (rua,cidade) references rua
         );
 
-### Exercício
+### Exercício FIFA
+
+     Imagine que tinha sido contratado pela FIFA, para desenhar e implementar uma base de dados que permita gerir a informação sobre os jogadores e equipas de futebol.
+
+        1) Para cada jogadore deve ser guardado: nome, data de nascimento e nacionalidade. Embora seja raro, pode haver jogadores com o mesmo nome.
+
+        2) Um clube de futebol tem um nome, um país ao qual pertence, e um conjunto de jogadores que fazem parte do seu plantel. Num dado instante, um jogador só pode pertencer a um só clube.
+
+        3) Deve ser mantido um histórico de transferências dos jogadores. Uma transferência envolve 5 coisas: um jogador, o clube de origem, o clube de destino, a data de transferência e o montante.
+
+### Exercício Empresa
 
     Uma empresa pretende criar um sistema de informação para guardar informações referentes às tarefas a executar pelos seus empregados:
     * Cada empregado tem um número identificativo (obrigatório e unico), um nome (obrigatório), uma morada (facultativa) e um contacto telefónico (obrigatório).
