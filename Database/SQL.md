@@ -197,8 +197,9 @@ No caso da chave estrangeira ser composta por mais de uma coluna usa-se uma rest
 ### SELECT + FROM
 
 - Permite selecionar algumas colunas de uma relação.
-- Podemos também selecionar todak
-  SELECT \* FROM autocarro
+- Podemos também selecionar todas
+
+        SELECT \* FROM autocarro
 
         | matrícula | marca   | modelo | kms    |
         | 23-43-PG  | Volvo   | 7700   | 5000   |
