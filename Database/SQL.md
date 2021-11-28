@@ -180,9 +180,7 @@ No caso da chave estrangeira ser composta por mais de uma coluna usa-se uma rest
      Imagine que tinha sido contratado pela FIFA, para desenhar e implementar uma base de dados que permita gerir a informação sobre os jogadores e equipas de futebol.
 
         1) Para cada jogadore deve ser guardado: nome, data de nascimento e nacionalidade. Embora seja raro, pode haver jogadores com o mesmo nome.
-
         2) Um clube de futebol tem um nome, um país ao qual pertence, e um conjunto de jogadores que fazem parte do seu plantel. Num dado instante, um jogador só pode pertencer a um só clube.
-
         3) Deve ser mantido um histórico de transferências dos jogadores. Uma transferência envolve 5 coisas: um jogador, o clube de origem, o clube de destino, a data de transferência e o montante.
 
 ### Exercício Empresa
