@@ -430,6 +430,16 @@ Para cada atributo multivalor cria -se uma nova relação. Esta nova relação i
 
 ### Exercícios:
 
+## Exercício: Aluguer de Filmes
+
+| ID-cli | Nome             | Telefone  | ID-Dvd | Nome           | Gênero  | Duração | Categoria  | Preço | Data        |
+| ------ | ---------------- | --------- | ------ | -------------- | ------- | ------- | ---------- | ----- | ----------- |
+| 0032   | João Sá          | 921222148 | 10012  | No Time To Die | Acção   | 180     | lançamento | 5\$   | 10-12 -2021 |
+| 1022   | Maria das Dores  | 917892210 | 07814  | Love Actually  | Romance | 95      | simples    | 2\$   | 10-12 -2021 |
+| 1022   | Maria das Dores  | 917892210 | 09111  | Interstellar   | Sci-Fi  | 143     | simples    | 2\$   | 10-12 -2021 |
+| 0876   | Ricardo Mortágua | 961188210 | 01011  | Star Wars      | Sci-Fi  | 120     | especial   | 3\$   | 11-12 -2021 |
+| 0474   | Anabela Alves    | 929800146 | 12081  | Parasites      | Drama   | 128     | lançamento | 5\$   | 11-12 -2021 |
+
 ## Exercício: Notas da disciplina
 
 | Nº Estudante | Nome Estudante    | Curso         | Nº Disciplina | Nome Disciplina    | Cod. Professor | Nome Professor | Grupo Professor | Nota |
