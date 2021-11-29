@@ -168,7 +168,7 @@ Uma associação relaciona uma ou mais entidades e devem ser usadas sempre que s
 
     * Uma loja / oficina de peças e acessórios para automóveis pretende um sistema de informação que permita a gestão dos seus clientes, peças/ acessórios e serviços efectuados.
     * A loja tem um certo número de empregados para os quais é importante saber o seu número de identificação fiscal (NIF), nome e morada.
-    * Na oficina são efectuados serviços de montagem de peças para os quais é necerssários saber
+    * Na oficina são efectuados serviços de montagem de peças para os quais é necessário saber
       - em que carro foi efetuado o serviço
       - o número de kms que o carro tinha na altura
       - qual o empregado responsável
