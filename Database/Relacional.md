@@ -179,9 +179,9 @@ Uma associação relaciona uma ou mais entidades e devem ser usadas sempre que s
     * É importante ainda saber a categoria (rádio, pneu, etc), a referência e custo de cada peça
     * Para cada carro é necessário guardar os seguintes dados:
       - matricula
-      -modelo
-      -marca
-      -dados do respectivo dono (NIF, nome, morada, telefone)
+      - modelo
+      - marca
+      - dados do respectivo dono (NIF, nome, morada, telefone)
     * Considere que uma pessoa pode ser dona de varios carros mas cada carro só pode ter um dono
 
 ### Exercício Bicicleta
