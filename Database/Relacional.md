@@ -256,7 +256,7 @@ Exemplo:
 | id_est | id_curso |
 | ------ | -------- |
 | 53666  | LEIC     |
-| 53666  | Inglês   |
+| 53688  | Inglês   |
 
 **Estudantes**
 
@@ -346,10 +346,10 @@ Para cada atributo multivalor cria -se uma nova relação. Esta nova relação i
 
     * Cada cliente registado será identificado pelo número de identificação fiscal (único), nome e morada. Todos estes dados são obrigatórios.
     * Os clientes podem guardar no sistema as suas receitas de pizza. Uma pizza pode ser composta por vários ingredientes.
-    * Ao criar uma nova receita de pizza o cliente terá de obrigatoriamente atribuir um nome à sua criação. Um cliente não pode ter duas receias com o mesmo nome.
-    * Os ingredientes serão identificados pelo seu nome e preço. O nome do ingrefiente será único. É necessário ainda guardar a quantidade em stock de cada ingrediente.
-    * Os clientes podem efecturar pedidos que podem ser: take-away ou entrega ao domicílio. Para cada pedido é necessário guardar a data e a hora.
-    * Um pedido é composto por várias receitas. Na altura do pedido o cliente pode escolher, para cada uma das receitas o tipo de massa, o tamanho de pizzae a quantidade.
+    * Ao criar uma nova receita de pizza o cliente terá de obrigatoriamente atribuir um nome à sua criação. Um cliente não pode ter duas receitas com o mesmo nome.
+    * Os ingredientes serão identificados pelo seu nome e preço. O nome do ingrediente será único. É necessário ainda guardar a quantidade em stock de cada ingrediente.
+    * Os clientes podem efectuar pedidos que podem ser: take-away ou entrega ao domicílio. Para cada pedido é necessário guardar a data e a hora.
+    * Um pedido é composto por várias receitas. Na altura do pedido o cliente pode escolher, para cada uma das receitas o tipo de massa, o tamanho de pizza e a quantidade.
 
 ## Exercício: Clínica Veterinária
 
