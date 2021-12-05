@@ -364,7 +364,7 @@ Assumindo a tabela marca
         | Renault | França |
 
 
-        SELECT * FROM autocarro, marca WHERE marca = nome
+        SELECT * FROM autocarro NATURAL JOIN marca
 
         | matrícula | marca   | modelo | kms    | pais   |
         | 23-43-PG  | Volvo   | 7700   | 5000   | Suécia |
@@ -435,7 +435,7 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
         | 7890 | Marta  | 1                   | 1200     |
 
 
-        SELECT num, AVG (salario)
+        SELECT num, AVG (salario) as media
         FROM empregado
         GROUP BY num
 
@@ -445,7 +445,7 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
         | 3   | 850   |
 
 
-        SELECT num, AVG (salario)
+        SELECT num, AVG (salario) as media
         FROM empregado
         HAVING AVG( salario ) > 750
 
