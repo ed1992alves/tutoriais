@@ -340,7 +340,7 @@ Assumindo a tabela marca
     | 45-38-LH  | Volvo   | 8500   | 5000   | Volvo   | Suécia |
     | FD-91-00  | Renault | FR1GTX | 112000 | Renault | França |
 
-### Junções usando JOIN ON
+### Junções usando JOIN ON (INNER JOIN)
 
 - Este comando permite especificar simultaneamente as tabelas a juntar e a condição de junção
 
@@ -433,9 +433,10 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
         | 5678 | Joana  | 2                   | 400      |
         | 6789 | Marco  | 2                   | 800      |
         | 7890 | Marta  | 1                   | 1200     |
+        | 3467 | Sofia  | 4                   | 750     |
 
 
-        SELECT num, AVG (salario) as media
+        SELECT num, AVG (salario) AS media
         FROM empregado
         GROUP BY num
 
@@ -443,9 +444,10 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
         | 1   | 1000  |
         | 2   | 700   |
         | 3   | 850   |
+        | 4   | 750   |
 
 
-        SELECT num, AVG (salario) as media
+        SELECT num, AVG (salario) AS media
         FROM empregado
         HAVING AVG( salario ) > 750
 
@@ -456,11 +458,26 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
 - O operador de contagem (COUNT), conta o número de valores não nulos no atributo.
 - Um caso especial é o COUNT(\*) que conta o número de linhas
 
-        SELECT departmento nome, COUNT(*), AS trabalhadores
+        SELECT * FROM DEPARTAMENTO
+
+        | numdep | nome       |
+        | 1      | Inglês     |
+        | 2      | Matemática |
+        | 3      | Física     |
+        | 4      | Espanhol     |
+        | 5      | Biologia     |
+
+
+        SELECT departamento.nome, COUNT(*) AS trabalhadores
         FROM departamento
         JOIN empregado ON (numdep = num )
         GROUP BY num, departamento.nome
-        HAVING COUNT (*) > 2;
+        HAVING COUNT (*) departmento> 2;
+
+        | nome       | trabalhadores |
+        | Inglês     |  3            |
+        | Matemática |  3            |
+        | Física     |  3            |
 
 ### Ordenações
 
@@ -597,6 +614,6 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
 
 ### Actualizações
 
-    UPDATA empregado
+    UPDATE empregado
     SET nome='Joao', salario = 1200
     WHERE bi=1234;

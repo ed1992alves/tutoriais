@@ -432,7 +432,7 @@ Para cada atributo multivalor cria -se uma nova relação. Esta nova relação i
 
 ## Exercício: Aluguer de Filmes
 
-| ID-cli | Nome             | Telefone  | ID-Dvd | Título         | Gênero  | Duração | Categoria  | Preço | Data        |
+| ID-cli | Nome             | Telefone  | ID-Dvd | Título         | Género  | Duração | Categoria  | Preço | Data        |
 | ------ | ---------------- | --------- | ------ | -------------- | ------- | ------- | ---------- | ----- | ----------- |
 | 0032   | João Sá          | 921222148 | 10012  | No Time To Die | Acção   | 180     | lançamento | 5\$   | 10-12 -2021 |
 | 1022   | Maria das Dores  | 917892210 | 07814  | Love Actually  | Romance | 95      | simples    | 2\$   | 10-12 -2021 |
