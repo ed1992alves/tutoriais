@@ -357,8 +357,8 @@ Para cada atributo multivalor cria -se uma nova relação. Esta nova relação i
     * Os dados a reter dos donos dos animais são o nome, morada e número de telefone. Deve ainda ser atribuído um identificador único a cada um.
     * Um animal pode não ter dono. Isto acontece porque frequentemente são tratados animais que são encontrados abandonados.
     * Deve ser possível guardar informação sobre a existência de uma raça na base de dados mesmo sem haver caês dessa raça que frequnetem a clínica.
-    * Uma consulta é dada por um méidoco a um animal numa determinada data e hora. As consultas são marcadas de hora a hora.
-    * Não podem ser marcadas duas consultas para o mesmo dia, hora e animal ou para o mesmo dia, hora e méidco. Um médico tem um nome, morada, NIF e um NIB.
+    * Uma consulta é dada por um médico a um animal numa determinada data e hora. As consultas são marcadas de hora a hora.
+    * Não podem ser marcadas duas consultas para o mesmo dia, hora e animal ou para o mesmo dia, hora e médico. Um médico tem um nome, morada, NIF e um NIB.
     * Numa consulta podem ser detectadas várias doenças. Uma doença tem um nome comum e um nome científico.
     * Para além das doenças detectadas, deve ser possível guardar na base de dados informações sobre as doenças mais comuns de cada raça.
 
