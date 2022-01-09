@@ -577,7 +577,7 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
 
 2. Observe o seguinte esquema:
 
-**Fligts**: | flno || from | to | distance | departs | arrives | price |
+**Flights**: | flno || from | to | distance | departs | arrives | price |
 
 **Aircraft**: | aid || aname | cruisingrange |
 
@@ -592,9 +592,9 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
     e) Encontre o nome dos pilotes certificados por uma avião Boeing
     f) Encontre os aviões que podem ser usados de Los Angeles a Chicago
     g) Identifice as rotas que podem ser pilotadas por todos os pilotos que ganham mais de que 100 000$.
-    h) Mostre a diferneça entre o salário médio de um piloto em relação a todos os funcionários.
+    h) Mostre a diferença entre o salário médio de um piloto em relação a todos os funcionários.
     i) Imprima o nome e o salário de todos os funcionários não-pilotos cujo salário é maior que média dos salários dos pilotos.
-    j) Imprima os nomes dos empregados que são certificados apenas em aviões com cruising range maior que 1000 milhas, mas que pilotom pelo mneos 2 aviões.
+    j) Imprima os nomes dos empregados que são certificados apenas em aviões com cruising range maior que 1000 milhas, mas que pilotom pelo menos 2 aviões.
 
 ## SQL - MANIPULAÇÃO de DADOS
 
