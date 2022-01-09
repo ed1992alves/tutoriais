@@ -389,7 +389,7 @@ Assumindo a tabela marca
 - Uma junção externa inclui esses tuplos deixando as colunas da outra tabela com valor nulo.
 - As junções externas podem ser à esquerda, à direita ou totais ( LEFT, RIGHT, FULL ).
 
-        SELECT * FROM autocartto LEFT JOIN marca
+        SELECT * FROM autocarro LEFT JOIN marca
         ON marca = nome
 
 Tomando agora como exemplo a seguinte tabela **Autocarros**
@@ -585,8 +585,8 @@ Tomando agora como exemplo a seguinte tabela **Autocarros**
 
 **Certified**: |#eid -> Employees | #aid -> Aircraft ||
 
-    a) Encontre os nomes dos voos cujo piloto ganhe mais de 80
-    b) Para cada piloto que tenha mais de 3 aviões, encontre o identificador e o valo máximo de cruising range
+    a) Encontre os nomes dos voos cujo piloto ganhe mais de 80,000
+    b) Para cada piloto que tenha mais de 3 aviões, encontre o identificador e o valor máximo de cruising range
     c) Encontra o nome dos pilotos cujo salário é menos que o preço de viagem de Los Angeles to Honolulu
     d) Para um avião com cruisingrange com mais de 1000 milhas, encontra o nome do avião e o salário médios dos pilotos certificados para esse avião.
     e) Encontre o nome dos pilotes certificados por uma avião Boeing
